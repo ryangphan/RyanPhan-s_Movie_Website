@@ -11,17 +11,18 @@ import fresh_tomatoes
 
 # Create instances for movie: Pirate of the Carribean
 pirate = media.Movie("Pirate of the Carribean", "Story about Pirate Life",
-                     "https://upload.wikimedia.org/wikipedia/en/c/c6/On_Stranger_Tides_Poster.jpg",
+                     "https://upload.wikimedia.org/wikipedia/en/c/c6/On_Stranger_Tides_Poster.jpg",  # nopep8
                      "https://www.youtube.com/watch?v=IPf4rGw3XHw")
 
 # Create instances for movie: Transformer
-transformer = media.Movie("Transformer", "Story about robots fighting each other",
-                          "https://upload.wikimedia.org/wikipedia/en/2/26/Transformers_The_Last_Knight_poster.jpg", # NOQA
+transformer = media.Movie("Transformer",
+                          "Story about robots fighting each other",
+                          "https://upload.wikimedia.org/wikipedia/en/2/26/Transformers_The_Last_Knight_poster.jpg",  # nopep8
                           "https://www.youtube.com/watch?v=uD5IJvKcbEQ")
 
 # Create instances for movie: Sherlock Holmes
 sherlock = media.Movie("Sherlock Holmes", "Film about Sherlock Holmes",
-                       "http://vignette3.wikia.nocookie.net/bakerstreet/images/d/db/Sherlock_holmes_ritchie.jpg/revision/latest?cb=20130202212947", # NOQA
+                       "http://vignette3.wikia.nocookie.net/bakerstreet/images/d/db/Sherlock_holmes_ritchie.jpg/revision/latest?cb=20130202212947",  # nopep8
                        "https://www.youtube.com/watch?v=Egcx63-FfTE")
 
 
